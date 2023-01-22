@@ -1,0 +1,32 @@
+{
+	"name": "@code-book-js/local-api",
+	"version": "1.0.1",
+	"description": "A Local API for working with CodeBook.",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"start": "tsc --watch --preserveWatchOutput",
+		"prepublishOnly": "tsc"
+	},
+	"keywords": [],
+	"author": "Chris Mittell",
+	"license": "ISC",
+	"publishConfig": {
+		"access": "public"
+	},
+	"files": [
+		"dist"
+	],
+	"devDependencies": {
+		"@types/cors": "^2.8.13",
+		"@types/express": "^4.17.15",
+		"typescript": "^4.9.4"
+	},
+	"dependencies": {
+		"@code-book-js/local-client": "^1.0.1",
+		"cors": "^2.8.5",
+		"express": "^4.18.2",
+		"http-proxy-middleware": "^2.0.6"
+	},
+	"gitHead": "4a76d2f1b341d704a9fbc74c0187103c7f4263e9"
+}

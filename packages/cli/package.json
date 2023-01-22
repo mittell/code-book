@@ -1,0 +1,30 @@
+{
+	"name": "@code-book-js/cli",
+	"version": "1.0.1",
+	"description": "A CLI for running and opening files in CodeBook.",
+	"scripts": {
+		"start": "tsc --watch --preserveWatchOutput",
+		"prepublishOnly": "esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV=\\\"production\\\""
+	},
+	"keywords": [],
+	"author": "Chris Mittell",
+	"license": "ISC",
+	"bin": "dist/index.js",
+	"publishConfig": {
+		"access": "public"
+	},
+	"files": [
+		"dist"
+	],
+	"dependencies": {
+		"@code-book-js/local-client": "^1.0.1"
+	},
+	"devDependencies": {
+		"@code-book-js/local-api": "^1.0.1",
+		"@types/node": "^18.11.18",
+		"commander": "^10.0.0",
+		"esbuild": "0.8.26",
+		"typescript": "^4.9.4"
+	},
+	"gitHead": "4a76d2f1b341d704a9fbc74c0187103c7f4263e9"
+}
