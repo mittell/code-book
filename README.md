@@ -1,10 +1,6 @@
 # CodeBook
 
-CodeBook is a React App with a CLI, which lets you write Markdown and Code in the browser.
-
-It features in-browser compilation of code, with rendering in a preview window.
-
-CodeBook can be used to explain code concepts with example code in order to illustrate concepts.
+A web and command-line tool built with React and Node.js that allows developers and educators to create and organize documentation complete with working code examples. It features live transpilation of code, enabling users to run the examples directly in their browser and write their own code. Users can also save their documentation for later use.
 
 ## Online Demo
 
