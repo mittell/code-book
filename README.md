@@ -137,6 +137,10 @@ Run the NPM install command with the <b>--force</b> flag:
 
 Make sure to navigate back to the root project directory before continuing.
 
+Install Lerna by by running:
+
+    npm install
+
 Run the provided setup script:
 
     npm run setup
